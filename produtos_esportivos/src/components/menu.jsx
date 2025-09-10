@@ -2,7 +2,7 @@ import React from "react";
 
 const Menu = () => {
   return (
-    <header className="bg-blue-600 p-4">
+    <header className="bg-blue-600 p-4 fixed top-0 left-0 w-full z-50">
       <nav className="max-w-screen-lg mx-auto flex justify-between items-center">
         <a href="#" className="text-white text-xl font-semibold">
           Produtos Esportivos
