@@ -19,5 +19,5 @@ FormCadastro: Formulário modal para cadastro, controla state interno dos campos
 Footer: Rodapé simples estilizado com Tailwind.
 
 
-- Este README explica o nome, objetivo, tecnologias e execução local.
+ 
 
