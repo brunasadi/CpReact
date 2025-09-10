@@ -7,10 +7,10 @@ const Menu = () => {
         <a href="#" className="text-white text-xl font-semibold">
           Produtos Esportivos
         </a>
-        {/* Menu Desktop */}
+        
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="#" className="text-white">
+            <a href="" className="text-white">
               Home
             </a>
           </li>
