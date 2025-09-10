@@ -1,7 +1,9 @@
+import React, { useState } from "react";
 import './App.css'
 import Menu from './components/menu.jsx'
 import Card from './components/card.jsx'
 import Footer from './components/footer.jsx'
+import FormCadastro from './components/FormCadastro.jsx'
 
 const produtos = [
   {
@@ -103,9 +105,14 @@ const produtos = [
 ];
 
 function App() {
+  const [showCadastro, setShowCadastro] = useState(false);
+
   return (
     <>
-      <Menu />
+      <Menu onCadastroClick={() => setShowCadastro(true)} />
+      {showCadastro && (
+        <FormCadastro onClose={() => setShowCadastro(false)} />
+      )}
       <div className="pt-24 pb-8 max-w-screen-lg mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {produtos.map((produto, idx) => (

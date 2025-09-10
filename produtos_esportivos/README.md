@@ -1,12 +1,23 @@
-# React + Vite
+Integrantes: 
+Bruna Sadi Duarte rm:561870
+Sara Marangon rm:563807
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objetivo
 
-Currently, two official plugins are available:
+Este projeto é uma aplicação React que exibe uma vitrine de produtos esportivos em formato de cards. O usuário pode visualizar os produtos, acessar um menu fixo no topo da página e realizar cadastro através de um formulário modal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias usadas
 
-## Expanding the ESLint configuration
+Usamos React, Vite, Tailwind
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Componentes
+
+Menu: Header fixo estilizado com Tailwind, recebe props para abrir o formulário de cadastro.
+Card: Exibe informações dos produtos esportivos, recebe props para título, imagem, descrição e preço.
+FormCadastro: Formulário modal para cadastro, controla state interno dos campos e recebe prop para fechar.
+Footer: Rodapé simples estilizado com Tailwind.
+
+
+- Este README explica o nome, objetivo, tecnologias e execução local.
+
